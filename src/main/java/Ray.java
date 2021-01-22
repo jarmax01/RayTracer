@@ -11,8 +11,8 @@ In this consideration of a ray, the vector make a trajectory in t time. Here t e
  */
 public class Ray {
 
-    private Vector origin;
-    private Vector direction; //We aren't making the ray direction to a unit vector because I think not doing that makes for simpler and slightly faster code
+    private final Vector origin;
+    private final Vector direction; //We aren't making the ray direction to a unit vector because I think not doing that makes for simpler and slightly faster code
 
     public Ray(Vector origin, Vector direction){
         this.origin = origin;
