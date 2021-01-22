@@ -25,4 +25,9 @@ public class Display {
         fileWriter.close();
     }
 
+    public Vector color(Ray ray){
+        Vector unit_direction = Vector.unit_vector(ray.getDirection());
+        double t =
+    }
+
 }
